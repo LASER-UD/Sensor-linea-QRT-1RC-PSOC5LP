@@ -1,0 +1,594 @@
+ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccEhmeRo.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"cymetadata.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.global	cy_metadata
+  20              		.global	cy_meta_flashprotect
+  21              		.global	cy_meta_wonvl
+  22              		.global	cy_meta_custnvl
+  23              		.global	cy_meta_configecc
+  24              		.section	.cyconfigecc,"a",%progbits
+  25              		.align	2
+  26              		.type	cy_meta_configecc, %object
+  27              		.size	cy_meta_configecc, 112
+  28              	cy_meta_configecc:
+  29 0000 02       		.byte	2
+  30 0001 52       		.byte	82
+  31 0002 00       		.byte	0
+  32 0003 40       		.byte	64
+  33 0004 04       		.byte	4
+  34 0005 0B       		.byte	11
+  35 0006 01       		.byte	1
+  36 0007 40       		.byte	64
+  37 0008 02       		.byte	2
+  38 0009 0C       		.byte	12
+  39 000a 01       		.byte	1
+  40 000b 40       		.byte	64
+  41 000c 08       		.byte	8
+  42 000d 0D       		.byte	13
+  43 000e 01       		.byte	1
+  44 000f 40       		.byte	64
+  45 0010 0C       		.byte	12
+  46 0011 45       		.byte	69
+  47 0012 01       		.byte	1
+  48 0013 40       		.byte	64
+  49 0014 04       		.byte	4
+  50 0015 46       		.byte	70
+  51 0016 01       		.byte	1
+  52 0017 40       		.byte	64
+  53 0018 10       		.byte	16
+  54 0019 23       		.byte	35
+  55 001a 11       		.byte	17
+  56 001b 2A       		.byte	42
+  57 001c AB       		.byte	-85
+ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccEhmeRo.s 			page 2
+
+
+  58 001d 0A       		.byte	10
+  59 001e B1       		.byte	-79
+  60 001f 01       		.byte	1
+  61 0020 E8       		.byte	-24
+  62 0021 04       		.byte	4
+  63 0022 EC       		.byte	-20
+  64 0023 01       		.byte	1
+  65 0024 DB       		.byte	-37
+  66 0025 04       		.byte	4
+  67 0026 DF       		.byte	-33
+  68 0027 01       		.byte	1
+  69 0028 68       		.byte	104
+  70 0029 18       		.byte	24
+  71 002a 69       		.byte	105
+  72 002b 01       		.byte	1
+  73 002c 6B       		.byte	107
+  74 002d 02       		.byte	2
+  75 002e 70       		.byte	112
+  76 002f 80       		.byte	-128
+  77 0030 73       		.byte	115
+  78 0031 08       		.byte	8
+  79 0032 84       		.byte	-124
+  80 0033 80       		.byte	-128
+  81 0034 88       		.byte	-120
+  82 0035 18       		.byte	24
+  83 0036 E0       		.byte	-32
+  84 0037 08       		.byte	8
+  85 0038 50       		.byte	80
+  86 0039 82       		.byte	-126
+  87 003a 57       		.byte	87
+  88 003b 08       		.byte	8
+  89 003c 5A       		.byte	90
+  90 003d 01       		.byte	1
+  91 003e 5F       		.byte	95
+  92 003f 80       		.byte	-128
+  93 0040 65       		.byte	101
+  94 0041 01       		.byte	1
+  95 0042 86       		.byte	-122
+  96 0043 01       		.byte	1
+  97 0044 88       		.byte	-120
+  98 0045 80       		.byte	-128
+  99 0046 8B       		.byte	-117
+ 100 0047 80       		.byte	-128
+ 101 0048 D4       		.byte	-44
+ 102 0049 07       		.byte	7
+ 103 004a D6       		.byte	-42
+ 104 004b 06       		.byte	6
+ 105 004c D8       		.byte	-40
+ 106 004d 01       		.byte	1
+ 107 004e E4       		.byte	-28
+ 108 004f 05       		.byte	5
+ 109 0050 A9       		.byte	-87
+ 110 0051 01       		.byte	1
+ 111 0052 AB       		.byte	-85
+ 112 0053 08       		.byte	8
+ 113 0054 B0       		.byte	-80
+ 114 0055 02       		.byte	2
+ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccEhmeRo.s 			page 3
+
+
+ 115 0056 EC       		.byte	-20
+ 116 0057 01       		.byte	1
+ 117 0058 01       		.byte	1
+ 118 0059 02       		.byte	2
+ 119 005a 03       		.byte	3
+ 120 005b 00       		.byte	0
+ 121 005c 00       		.byte	0
+ 122 005d 00       		.byte	0
+ 123 005e 00       		.byte	0
+ 124 005f 00       		.byte	0
+ 125 0060 00       		.byte	0
+ 126 0061 0B       		.byte	11
+ 127 0062 0B       		.byte	11
+ 128 0063 00       		.byte	0
+ 129 0064 00       		.byte	0
+ 130 0065 00       		.byte	0
+ 131 0066 00       		.byte	0
+ 132 0067 00       		.byte	0
+ 133 0068 00       		.byte	0
+ 134 0069 6F       		.byte	111
+ 135 006a 6F       		.byte	111
+ 136 006b 00       		.byte	0
+ 137 006c 6F       		.byte	111
+ 138 006d 00       		.byte	0
+ 139 006e 00       		.byte	0
+ 140 006f 00       		.byte	0
+ 141              		.section	.cywolatch,"a",%progbits
+ 142              		.align	2
+ 143              		.type	cy_meta_wonvl, %object
+ 144              		.size	cy_meta_wonvl, 4
+ 145              	cy_meta_wonvl:
+ 146 0000 BC       		.byte	-68
+ 147 0001 90       		.byte	-112
+ 148 0002 AC       		.byte	-84
+ 149 0003 AF       		.byte	-81
+ 150              		.section	.cycustnvl,"a",%progbits
+ 151              		.align	2
+ 152              		.type	cy_meta_custnvl, %object
+ 153              		.size	cy_meta_custnvl, 4
+ 154              	cy_meta_custnvl:
+ 155 0000 00       		.byte	0
+ 156 0001 00       		.byte	0
+ 157 0002 40       		.byte	64
+ 158 0003 05       		.byte	5
+ 159              		.section	.cymeta,"a",%progbits
+ 160              		.align	2
+ 161              		.type	cy_metadata, %object
+ 162              		.size	cy_metadata, 12
+ 163              	cy_metadata:
+ 164 0000 00       		.byte	0
+ 165 0001 01       		.byte	1
+ 166 0002 2E       		.byte	46
+ 167 0003 16       		.byte	22
+ 168 0004 10       		.byte	16
+ 169 0005 69       		.byte	105
+ 170 0006 00       		.byte	0
+ 171 0007 01       		.byte	1
+ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccEhmeRo.s 			page 4
+
+
+ 172 0008 00       		.byte	0
+ 173 0009 00       		.byte	0
+ 174 000a 00       		.byte	0
+ 175 000b 00       		.byte	0
+ 176              		.section	.cyflashprotect,"a",%progbits
+ 177              		.align	2
+ 178              		.type	cy_meta_flashprotect, %object
+ 179              		.size	cy_meta_flashprotect, 256
+ 180              	cy_meta_flashprotect:
+ 181 0000 00000000 		.space	256
+ 181      00000000 
+ 181      00000000 
+ 181      00000000 
+ 181      00000000 
+ 182              		.text
+ 183              	.Letext0:
+ 184              		.file 1 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
+ 185              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.2\\psoc creator\\import\\gnu\\arm\\5.4.
+ 186              		.file 3 "Generated_Source\\PSoC5\\cymetadata.c"
+ 187              		.section	.debug_info,"",%progbits
+ 188              	.Ldebug_info0:
+ 189 0000 30010000 		.4byte	0x130
+ 190 0004 0400     		.2byte	0x4
+ 191 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 192 000a 04       		.byte	0x4
+ 193 000b 01       		.uleb128 0x1
+ 194 000c 61000000 		.4byte	.LASF17
+ 195 0010 0C       		.byte	0xc
+ 196 0011 BB010000 		.4byte	.LASF18
+ 197 0015 00000000 		.4byte	.LASF19
+ 198 0019 00000000 		.4byte	.Ldebug_line0
+ 199 001d 02       		.uleb128 0x2
+ 200 001e 01       		.byte	0x1
+ 201 001f 06       		.byte	0x6
+ 202 0020 AF010000 		.4byte	.LASF0
+ 203 0024 03       		.uleb128 0x3
+ 204 0025 3D000000 		.4byte	.LASF9
+ 205 0029 01       		.byte	0x1
+ 206 002a 1D       		.byte	0x1d
+ 207 002b 2F000000 		.4byte	0x2f
+ 208 002f 02       		.uleb128 0x2
+ 209 0030 01       		.byte	0x1
+ 210 0031 08       		.byte	0x8
+ 211 0032 53000000 		.4byte	.LASF1
+ 212 0036 02       		.uleb128 0x2
+ 213 0037 02       		.byte	0x2
+ 214 0038 05       		.byte	0x5
+ 215 0039 9C010000 		.4byte	.LASF2
+ 216 003d 02       		.uleb128 0x2
+ 217 003e 02       		.byte	0x2
+ 218 003f 07       		.byte	0x7
+ 219 0040 01010000 		.4byte	.LASF3
+ 220 0044 02       		.uleb128 0x2
+ 221 0045 04       		.byte	0x4
+ 222 0046 05       		.byte	0x5
+ 223 0047 A6010000 		.4byte	.LASF4
+ 224 004b 02       		.uleb128 0x2
+ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccEhmeRo.s 			page 5
+
+
+ 225 004c 04       		.byte	0x4
+ 226 004d 07       		.byte	0x7
+ 227 004e EF000000 		.4byte	.LASF5
+ 228 0052 02       		.uleb128 0x2
+ 229 0053 08       		.byte	0x8
+ 230 0054 05       		.byte	0x5
+ 231 0055 8E010000 		.4byte	.LASF6
+ 232 0059 02       		.uleb128 0x2
+ 233 005a 08       		.byte	0x8
+ 234 005b 07       		.byte	0x7
+ 235 005c 43010000 		.4byte	.LASF7
+ 236 0060 04       		.uleb128 0x4
+ 237 0061 04       		.byte	0x4
+ 238 0062 05       		.byte	0x5
+ 239 0063 696E7400 		.ascii	"int\000"
+ 240 0067 02       		.uleb128 0x2
+ 241 0068 04       		.byte	0x4
+ 242 0069 07       		.byte	0x7
+ 243 006a 36010000 		.4byte	.LASF8
+ 244 006e 03       		.uleb128 0x3
+ 245 006f 5A010000 		.4byte	.LASF10
+ 246 0073 02       		.byte	0x2
+ 247 0074 18       		.byte	0x18
+ 248 0075 24000000 		.4byte	0x24
+ 249 0079 05       		.uleb128 0x5
+ 250 007a 90000000 		.4byte	0x90
+ 251 007e 89000000 		.4byte	0x89
+ 252 0082 06       		.uleb128 0x6
+ 253 0083 89000000 		.4byte	0x89
+ 254 0087 6F       		.byte	0x6f
+ 255 0088 00       		.byte	0
+ 256 0089 02       		.uleb128 0x2
+ 257 008a 04       		.byte	0x4
+ 258 008b 07       		.byte	0x7
+ 259 008c 85010000 		.4byte	.LASF11
+ 260 0090 07       		.uleb128 0x7
+ 261 0091 6E000000 		.4byte	0x6e
+ 262 0095 08       		.uleb128 0x8
+ 263 0096 24010000 		.4byte	.LASF12
+ 264 009a 03       		.byte	0x3
+ 265 009b 1F       		.byte	0x1f
+ 266 009c A6000000 		.4byte	0xa6
+ 267 00a0 05       		.uleb128 0x5
+ 268 00a1 03       		.byte	0x3
+ 269 00a2 00000000 		.4byte	cy_meta_configecc
+ 270 00a6 07       		.uleb128 0x7
+ 271 00a7 79000000 		.4byte	0x79
+ 272 00ab 05       		.uleb128 0x5
+ 273 00ac 90000000 		.4byte	0x90
+ 274 00b0 BB000000 		.4byte	0xbb
+ 275 00b4 06       		.uleb128 0x6
+ 276 00b5 89000000 		.4byte	0x89
+ 277 00b9 03       		.byte	0x3
+ 278 00ba 00       		.byte	0
+ 279 00bb 08       		.uleb128 0x8
+ 280 00bc 14010000 		.4byte	.LASF13
+ 281 00c0 03       		.byte	0x3
+ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccEhmeRo.s 			page 6
+
+
+ 282 00c1 3A       		.byte	0x3a
+ 283 00c2 CC000000 		.4byte	0xcc
+ 284 00c6 05       		.uleb128 0x5
+ 285 00c7 03       		.byte	0x3
+ 286 00c8 00000000 		.4byte	cy_meta_custnvl
+ 287 00cc 07       		.uleb128 0x7
+ 288 00cd AB000000 		.4byte	0xab
+ 289 00d1 08       		.uleb128 0x8
+ 290 00d2 77010000 		.4byte	.LASF14
+ 291 00d6 03       		.byte	0x3
+ 292 00d7 48       		.byte	0x48
+ 293 00d8 E2000000 		.4byte	0xe2
+ 294 00dc 05       		.uleb128 0x5
+ 295 00dd 03       		.byte	0x3
+ 296 00de 00000000 		.4byte	cy_meta_wonvl
+ 297 00e2 07       		.uleb128 0x7
+ 298 00e3 AB000000 		.4byte	0xab
+ 299 00e7 05       		.uleb128 0x5
+ 300 00e8 90000000 		.4byte	0x90
+ 301 00ec F7000000 		.4byte	0xf7
+ 302 00f0 06       		.uleb128 0x6
+ 303 00f1 89000000 		.4byte	0x89
+ 304 00f5 FF       		.byte	0xff
+ 305 00f6 00       		.byte	0
+ 306 00f7 08       		.uleb128 0x8
+ 307 00f8 62010000 		.4byte	.LASF15
+ 308 00fc 03       		.byte	0x3
+ 309 00fd 56       		.byte	0x56
+ 310 00fe 08010000 		.4byte	0x108
+ 311 0102 05       		.uleb128 0x5
+ 312 0103 03       		.byte	0x3
+ 313 0104 00000000 		.4byte	cy_meta_flashprotect
+ 314 0108 07       		.uleb128 0x7
+ 315 0109 E7000000 		.4byte	0xe7
+ 316 010d 05       		.uleb128 0x5
+ 317 010e 90000000 		.4byte	0x90
+ 318 0112 1D010000 		.4byte	0x11d
+ 319 0116 06       		.uleb128 0x6
+ 320 0117 89000000 		.4byte	0x89
+ 321 011b 0B       		.byte	0xb
+ 322 011c 00       		.byte	0
+ 323 011d 08       		.uleb128 0x8
+ 324 011e 47000000 		.4byte	.LASF16
+ 325 0122 03       		.byte	0x3
+ 326 0123 83       		.byte	0x83
+ 327 0124 2E010000 		.4byte	0x12e
+ 328 0128 05       		.uleb128 0x5
+ 329 0129 03       		.byte	0x3
+ 330 012a 00000000 		.4byte	cy_metadata
+ 331 012e 07       		.uleb128 0x7
+ 332 012f 0D010000 		.4byte	0x10d
+ 333 0133 00       		.byte	0
+ 334              		.section	.debug_abbrev,"",%progbits
+ 335              	.Ldebug_abbrev0:
+ 336 0000 01       		.uleb128 0x1
+ 337 0001 11       		.uleb128 0x11
+ 338 0002 01       		.byte	0x1
+ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccEhmeRo.s 			page 7
+
+
+ 339 0003 25       		.uleb128 0x25
+ 340 0004 0E       		.uleb128 0xe
+ 341 0005 13       		.uleb128 0x13
+ 342 0006 0B       		.uleb128 0xb
+ 343 0007 03       		.uleb128 0x3
+ 344 0008 0E       		.uleb128 0xe
+ 345 0009 1B       		.uleb128 0x1b
+ 346 000a 0E       		.uleb128 0xe
+ 347 000b 10       		.uleb128 0x10
+ 348 000c 17       		.uleb128 0x17
+ 349 000d 00       		.byte	0
+ 350 000e 00       		.byte	0
+ 351 000f 02       		.uleb128 0x2
+ 352 0010 24       		.uleb128 0x24
+ 353 0011 00       		.byte	0
+ 354 0012 0B       		.uleb128 0xb
+ 355 0013 0B       		.uleb128 0xb
+ 356 0014 3E       		.uleb128 0x3e
+ 357 0015 0B       		.uleb128 0xb
+ 358 0016 03       		.uleb128 0x3
+ 359 0017 0E       		.uleb128 0xe
+ 360 0018 00       		.byte	0
+ 361 0019 00       		.byte	0
+ 362 001a 03       		.uleb128 0x3
+ 363 001b 16       		.uleb128 0x16
+ 364 001c 00       		.byte	0
+ 365 001d 03       		.uleb128 0x3
+ 366 001e 0E       		.uleb128 0xe
+ 367 001f 3A       		.uleb128 0x3a
+ 368 0020 0B       		.uleb128 0xb
+ 369 0021 3B       		.uleb128 0x3b
+ 370 0022 0B       		.uleb128 0xb
+ 371 0023 49       		.uleb128 0x49
+ 372 0024 13       		.uleb128 0x13
+ 373 0025 00       		.byte	0
+ 374 0026 00       		.byte	0
+ 375 0027 04       		.uleb128 0x4
+ 376 0028 24       		.uleb128 0x24
+ 377 0029 00       		.byte	0
+ 378 002a 0B       		.uleb128 0xb
+ 379 002b 0B       		.uleb128 0xb
+ 380 002c 3E       		.uleb128 0x3e
+ 381 002d 0B       		.uleb128 0xb
+ 382 002e 03       		.uleb128 0x3
+ 383 002f 08       		.uleb128 0x8
+ 384 0030 00       		.byte	0
+ 385 0031 00       		.byte	0
+ 386 0032 05       		.uleb128 0x5
+ 387 0033 01       		.uleb128 0x1
+ 388 0034 01       		.byte	0x1
+ 389 0035 49       		.uleb128 0x49
+ 390 0036 13       		.uleb128 0x13
+ 391 0037 01       		.uleb128 0x1
+ 392 0038 13       		.uleb128 0x13
+ 393 0039 00       		.byte	0
+ 394 003a 00       		.byte	0
+ 395 003b 06       		.uleb128 0x6
+ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccEhmeRo.s 			page 8
+
+
+ 396 003c 21       		.uleb128 0x21
+ 397 003d 00       		.byte	0
+ 398 003e 49       		.uleb128 0x49
+ 399 003f 13       		.uleb128 0x13
+ 400 0040 2F       		.uleb128 0x2f
+ 401 0041 0B       		.uleb128 0xb
+ 402 0042 00       		.byte	0
+ 403 0043 00       		.byte	0
+ 404 0044 07       		.uleb128 0x7
+ 405 0045 26       		.uleb128 0x26
+ 406 0046 00       		.byte	0
+ 407 0047 49       		.uleb128 0x49
+ 408 0048 13       		.uleb128 0x13
+ 409 0049 00       		.byte	0
+ 410 004a 00       		.byte	0
+ 411 004b 08       		.uleb128 0x8
+ 412 004c 34       		.uleb128 0x34
+ 413 004d 00       		.byte	0
+ 414 004e 03       		.uleb128 0x3
+ 415 004f 0E       		.uleb128 0xe
+ 416 0050 3A       		.uleb128 0x3a
+ 417 0051 0B       		.uleb128 0xb
+ 418 0052 3B       		.uleb128 0x3b
+ 419 0053 0B       		.uleb128 0xb
+ 420 0054 49       		.uleb128 0x49
+ 421 0055 13       		.uleb128 0x13
+ 422 0056 3F       		.uleb128 0x3f
+ 423 0057 19       		.uleb128 0x19
+ 424 0058 02       		.uleb128 0x2
+ 425 0059 18       		.uleb128 0x18
+ 426 005a 00       		.byte	0
+ 427 005b 00       		.byte	0
+ 428 005c 00       		.byte	0
+ 429              		.section	.debug_aranges,"",%progbits
+ 430 0000 14000000 		.4byte	0x14
+ 431 0004 0200     		.2byte	0x2
+ 432 0006 00000000 		.4byte	.Ldebug_info0
+ 433 000a 04       		.byte	0x4
+ 434 000b 00       		.byte	0
+ 435 000c 0000     		.2byte	0
+ 436 000e 0000     		.2byte	0
+ 437 0010 00000000 		.4byte	0
+ 438 0014 00000000 		.4byte	0
+ 439              		.section	.debug_line,"",%progbits
+ 440              	.Ldebug_line0:
+ 441 0000 3D010000 		.section	.debug_str,"MS",%progbits,1
+ 441      02003701 
+ 441      00000201 
+ 441      FB0E0D00 
+ 441      01010101 
+ 442              	.LASF19:
+ 443 0000 433A5C55 		.ascii	"C:\\Users\\jdrd3\\Documents\\PSoC Creator\\Ejemplos"
+ 443      73657273 
+ 443      5C6A6472 
+ 443      64335C44 
+ 443      6F63756D 
+ 444 002e 5C515254 		.ascii	"\\QRT-1RC.cydsn\000"
+ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccEhmeRo.s 			page 9
+
+
+ 444      2D315243 
+ 444      2E637964 
+ 444      736E00
+ 445              	.LASF9:
+ 446 003d 5F5F7569 		.ascii	"__uint8_t\000"
+ 446      6E74385F 
+ 446      7400
+ 447              	.LASF16:
+ 448 0047 63795F6D 		.ascii	"cy_metadata\000"
+ 448      65746164 
+ 448      61746100 
+ 449              	.LASF1:
+ 450 0053 756E7369 		.ascii	"unsigned char\000"
+ 450      676E6564 
+ 450      20636861 
+ 450      7200
+ 451              	.LASF17:
+ 452 0061 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 452      43313120 
+ 452      352E342E 
+ 452      31203230 
+ 452      31363036 
+ 453 0094 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 453      20726576 
+ 453      6973696F 
+ 453      6E203233 
+ 453      37373135 
+ 454 00c7 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 454      66756E63 
+ 454      74696F6E 
+ 454      2D736563 
+ 454      74696F6E 
+ 455              	.LASF5:
+ 456 00ef 6C6F6E67 		.ascii	"long unsigned int\000"
+ 456      20756E73 
+ 456      69676E65 
+ 456      6420696E 
+ 456      7400
+ 457              	.LASF3:
+ 458 0101 73686F72 		.ascii	"short unsigned int\000"
+ 458      7420756E 
+ 458      7369676E 
+ 458      65642069 
+ 458      6E7400
+ 459              	.LASF13:
+ 460 0114 63795F6D 		.ascii	"cy_meta_custnvl\000"
+ 460      6574615F 
+ 460      63757374 
+ 460      6E766C00 
+ 461              	.LASF12:
+ 462 0124 63795F6D 		.ascii	"cy_meta_configecc\000"
+ 462      6574615F 
+ 462      636F6E66 
+ 462      69676563 
+ 462      6300
+ 463              	.LASF8:
+ 464 0136 756E7369 		.ascii	"unsigned int\000"
+ARM GAS  C:\Users\jdrd3\AppData\Local\Temp\ccEhmeRo.s 			page 10
+
+
+ 464      676E6564 
+ 464      20696E74 
+ 464      00
+ 465              	.LASF7:
+ 466 0143 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 466      206C6F6E 
+ 466      6720756E 
+ 466      7369676E 
+ 466      65642069 
+ 467              	.LASF10:
+ 468 015a 75696E74 		.ascii	"uint8_t\000"
+ 468      385F7400 
+ 469              	.LASF15:
+ 470 0162 63795F6D 		.ascii	"cy_meta_flashprotect\000"
+ 470      6574615F 
+ 470      666C6173 
+ 470      6870726F 
+ 470      74656374 
+ 471              	.LASF14:
+ 472 0177 63795F6D 		.ascii	"cy_meta_wonvl\000"
+ 472      6574615F 
+ 472      776F6E76 
+ 472      6C00
+ 473              	.LASF11:
+ 474 0185 73697A65 		.ascii	"sizetype\000"
+ 474      74797065 
+ 474      00
+ 475              	.LASF6:
+ 476 018e 6C6F6E67 		.ascii	"long long int\000"
+ 476      206C6F6E 
+ 476      6720696E 
+ 476      7400
+ 477              	.LASF2:
+ 478 019c 73686F72 		.ascii	"short int\000"
+ 478      7420696E 
+ 478      7400
+ 479              	.LASF4:
+ 480 01a6 6C6F6E67 		.ascii	"long int\000"
+ 480      20696E74 
+ 480      00
+ 481              	.LASF0:
+ 482 01af 7369676E 		.ascii	"signed char\000"
+ 482      65642063 
+ 482      68617200 
+ 483              	.LASF18:
+ 484 01bb 47656E65 		.ascii	"Generated_Source\\PSoC5\\cymetadata.c\000"
+ 484      72617465 
+ 484      645F536F 
+ 484      75726365 
+ 484      5C50536F 
+ 485              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
