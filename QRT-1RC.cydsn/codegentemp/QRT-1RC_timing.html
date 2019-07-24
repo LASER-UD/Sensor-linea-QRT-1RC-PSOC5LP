@@ -539,7 +539,7 @@ function getElementsByClass(rootNode, elemName, className)
 <tr> <td class="prop"> Project :</td>
 <td class="proptext"> QRT-1RC</td></tr>
 <tr> <td class="prop"> Build Time :</td>
-<td class="proptext"> 12/10/18 13:27:45</td></tr>
+<td class="proptext"> 07/24/19 16:01:04</td></tr>
 <tr> <td class="prop"> Device :</td>
 <td class="proptext"> CY8C5888LTI-LP097</td></tr>
 <tr> <td class="prop"> Temperature :</td>
@@ -662,9 +662,9 @@ CyBUS_CLK</span>
 </thead> 
 <tbody>
 <tr> 
- <td class = "text_info">\LCD:Cntl_Port:Sync:ctrl_reg\/control_5</td>
- <td class = "text_info">RS(0)_PAD</td>
- <td class = "number">24.178</td>
+ <td class = "text_info">\Control:Sync:ctrl_reg\/control_0</td>
+ <td class = "text_info">LED(0)_PAD</td>
+ <td class = "number">23.352</td>
 </tr>
 <tr class="sta_path">
 <td class="sta_path"  colspan="3">
@@ -685,381 +685,36 @@ CyBUS_CLK</span>
  <td class = "text_info">controlcell1</td>
  <td class = "text_info">U(0,4)</td>
  <td class = "number">1</td>
- <td class = "text_info">\LCD:Cntl_Port:Sync:ctrl_reg\</td>
- <td class = "text_info">\LCD:Cntl_Port:Sync:ctrl_reg\/busclk</td>
- <td class = "text_info">\LCD:Cntl_Port:Sync:ctrl_reg\/control_5</td>
+ <td class = "text_info">\Control:Sync:ctrl_reg\</td>
+ <td class = "text_info">\Control:Sync:ctrl_reg\/busclk</td>
+ <td class = "text_info">\Control:Sync:ctrl_reg\/control_0</td>
  <td class = "number">2.050</td>
 </tr>
 <tr> 
  <td class = "text_info">Route</td>
  <td class = "text_info"></td>
  <td class = "number">1</td>
- <td class = "text_info">Net_4</td>
- <td class = "text_info">\LCD:Cntl_Port:Sync:ctrl_reg\/control_5</td>
- <td class = "text_info">RS(0)/pin_input</td>
- <td class = "number">6.475</td>
+ <td class = "text_info">Net_13</td>
+ <td class = "text_info">\Control:Sync:ctrl_reg\/control_0</td>
+ <td class = "text_info">LED(0)/pin_input</td>
+ <td class = "number">5.411</td>
 </tr>
 <tr> 
- <td class = "text_info">iocell3</td>
- <td class = "text_info">P2[5]</td>
- <td class = "number">1</td>
- <td class = "text_info">RS(0)</td>
- <td class = "text_info">RS(0)/pin_input</td>
- <td class = "text_info">RS(0)/pad_out</td>
- <td class = "number">15.653</td>
-</tr>
-<tr> 
- <td class = "text_info">Route</td>
- <td class = "text_info"></td>
- <td class = "number">1</td>
- <td class = "text_info">RS(0)_PAD</td>
- <td class = "text_info">RS(0)/pad_out</td>
- <td class = "text_info">RS(0)_PAD</td>
- <td class = "number">0.000</td>
-</tr>
-<tr> 
- <td class = "text_info">Clock</td>
- <td class = "text_info"> </td>
- <td class = "text_info"></td>
- <td class = "text_info"></td>
- <td class = "text_info"></td>
- <td class = "text_info">Clock path delay</td>
- <td class = "number">0.000</td>
-</tr>
-</tbody>
- </table> 
-</td>
-</tr>
-<tr> 
- <td class = "text_info">\LCD:Cntl_Port:Sync:ctrl_reg\/control_0</td>
- <td class = "text_info">D4(0)_PAD</td>
- <td class = "number">24.146</td>
-</tr>
-<tr class="sta_path">
-<td class="sta_path"  colspan="3">
-<table class="sta_path">
- <thead> 
-<tr> 
-<th>Type</th>
-<th>Location</th>
-<th>Fanout</th>
-<th>Instance/Net</th>
-<th>Source</th>
-<th>Dest</th>
-<th>Delay (ns)</th>
-</tr>
-</thead> 
-<tbody>
-<tr> 
- <td class = "text_info">controlcell1</td>
- <td class = "text_info">U(0,4)</td>
- <td class = "number">1</td>
- <td class = "text_info">\LCD:Cntl_Port:Sync:ctrl_reg\</td>
- <td class = "text_info">\LCD:Cntl_Port:Sync:ctrl_reg\/busclk</td>
- <td class = "text_info">\LCD:Cntl_Port:Sync:ctrl_reg\/control_0</td>
- <td class = "number">2.050</td>
-</tr>
-<tr> 
- <td class = "text_info">Route</td>
- <td class = "text_info"></td>
- <td class = "number">1</td>
- <td class = "text_info">Net_6</td>
- <td class = "text_info">\LCD:Cntl_Port:Sync:ctrl_reg\/control_0</td>
- <td class = "text_info">D4(0)/pin_input</td>
- <td class = "number">6.429</td>
-</tr>
-<tr> 
- <td class = "text_info">iocell5</td>
- <td class = "text_info">P2[0]</td>
- <td class = "number">1</td>
- <td class = "text_info">D4(0)</td>
- <td class = "text_info">D4(0)/pin_input</td>
- <td class = "text_info">D4(0)/pad_out</td>
- <td class = "number">15.667</td>
-</tr>
-<tr> 
- <td class = "text_info">Route</td>
- <td class = "text_info"></td>
- <td class = "number">1</td>
- <td class = "text_info">D4(0)_PAD</td>
- <td class = "text_info">D4(0)/pad_out</td>
- <td class = "text_info">D4(0)_PAD</td>
- <td class = "number">0.000</td>
-</tr>
-<tr> 
- <td class = "text_info">Clock</td>
- <td class = "text_info"> </td>
- <td class = "text_info"></td>
- <td class = "text_info"></td>
- <td class = "text_info"></td>
- <td class = "text_info">Clock path delay</td>
- <td class = "number">0.000</td>
-</tr>
-</tbody>
- </table> 
-</td>
-</tr>
-<tr> 
- <td class = "text_info">\LCD:Cntl_Port:Sync:ctrl_reg\/control_4</td>
- <td class = "text_info">E(0)_PAD</td>
- <td class = "number">23.435</td>
-</tr>
-<tr class="sta_path">
-<td class="sta_path"  colspan="3">
-<table class="sta_path">
- <thead> 
-<tr> 
-<th>Type</th>
-<th>Location</th>
-<th>Fanout</th>
-<th>Instance/Net</th>
-<th>Source</th>
-<th>Dest</th>
-<th>Delay (ns)</th>
-</tr>
-</thead> 
-<tbody>
-<tr> 
- <td class = "text_info">controlcell1</td>
- <td class = "text_info">U(0,4)</td>
- <td class = "number">1</td>
- <td class = "text_info">\LCD:Cntl_Port:Sync:ctrl_reg\</td>
- <td class = "text_info">\LCD:Cntl_Port:Sync:ctrl_reg\/busclk</td>
- <td class = "text_info">\LCD:Cntl_Port:Sync:ctrl_reg\/control_4</td>
- <td class = "number">2.050</td>
-</tr>
-<tr> 
- <td class = "text_info">Route</td>
- <td class = "text_info"></td>
- <td class = "number">1</td>
- <td class = "text_info">Net_5</td>
- <td class = "text_info">\LCD:Cntl_Port:Sync:ctrl_reg\/control_4</td>
- <td class = "text_info">E(0)/pin_input</td>
- <td class = "number">6.261</td>
-</tr>
-<tr> 
- <td class = "text_info">iocell4</td>
- <td class = "text_info">P2[6]</td>
- <td class = "number">1</td>
- <td class = "text_info">E(0)</td>
- <td class = "text_info">E(0)/pin_input</td>
- <td class = "text_info">E(0)/pad_out</td>
- <td class = "number">15.124</td>
-</tr>
-<tr> 
- <td class = "text_info">Route</td>
- <td class = "text_info"></td>
- <td class = "number">1</td>
- <td class = "text_info">E(0)_PAD</td>
- <td class = "text_info">E(0)/pad_out</td>
- <td class = "text_info">E(0)_PAD</td>
- <td class = "number">0.000</td>
-</tr>
-<tr> 
- <td class = "text_info">Clock</td>
- <td class = "text_info"> </td>
- <td class = "text_info"></td>
- <td class = "text_info"></td>
- <td class = "text_info"></td>
- <td class = "text_info">Clock path delay</td>
- <td class = "number">0.000</td>
-</tr>
-</tbody>
- </table> 
-</td>
-</tr>
-<tr> 
- <td class = "text_info">\LCD:Cntl_Port:Sync:ctrl_reg\/control_1</td>
- <td class = "text_info">D5(0)_PAD</td>
- <td class = "number">23.423</td>
-</tr>
-<tr class="sta_path">
-<td class="sta_path"  colspan="3">
-<table class="sta_path">
- <thead> 
-<tr> 
-<th>Type</th>
-<th>Location</th>
-<th>Fanout</th>
-<th>Instance/Net</th>
-<th>Source</th>
-<th>Dest</th>
-<th>Delay (ns)</th>
-</tr>
-</thead> 
-<tbody>
-<tr> 
- <td class = "text_info">controlcell1</td>
- <td class = "text_info">U(0,4)</td>
- <td class = "number">1</td>
- <td class = "text_info">\LCD:Cntl_Port:Sync:ctrl_reg\</td>
- <td class = "text_info">\LCD:Cntl_Port:Sync:ctrl_reg\/busclk</td>
- <td class = "text_info">\LCD:Cntl_Port:Sync:ctrl_reg\/control_1</td>
- <td class = "number">2.050</td>
-</tr>
-<tr> 
- <td class = "text_info">Route</td>
- <td class = "text_info"></td>
- <td class = "number">1</td>
- <td class = "text_info">Net_7</td>
- <td class = "text_info">\LCD:Cntl_Port:Sync:ctrl_reg\/control_1</td>
- <td class = "text_info">D5(0)/pin_input</td>
- <td class = "number">5.482</td>
-</tr>
-<tr> 
- <td class = "text_info">iocell6</td>
+ <td class = "text_info">iocell2</td>
  <td class = "text_info">P2[1]</td>
  <td class = "number">1</td>
- <td class = "text_info">D5(0)</td>
- <td class = "text_info">D5(0)/pin_input</td>
- <td class = "text_info">D5(0)/pad_out</td>
+ <td class = "text_info">LED(0)</td>
+ <td class = "text_info">LED(0)/pin_input</td>
+ <td class = "text_info">LED(0)/pad_out</td>
  <td class = "number">15.891</td>
 </tr>
 <tr> 
  <td class = "text_info">Route</td>
  <td class = "text_info"></td>
  <td class = "number">1</td>
- <td class = "text_info">D5(0)_PAD</td>
- <td class = "text_info">D5(0)/pad_out</td>
- <td class = "text_info">D5(0)_PAD</td>
- <td class = "number">0.000</td>
-</tr>
-<tr> 
- <td class = "text_info">Clock</td>
- <td class = "text_info"> </td>
- <td class = "text_info"></td>
- <td class = "text_info"></td>
- <td class = "text_info"></td>
- <td class = "text_info">Clock path delay</td>
- <td class = "number">0.000</td>
-</tr>
-</tbody>
- </table> 
-</td>
-</tr>
-<tr> 
- <td class = "text_info">\LCD:Cntl_Port:Sync:ctrl_reg\/control_2</td>
- <td class = "text_info">D6(0)_PAD</td>
- <td class = "number">23.271</td>
-</tr>
-<tr class="sta_path">
-<td class="sta_path"  colspan="3">
-<table class="sta_path">
- <thead> 
-<tr> 
-<th>Type</th>
-<th>Location</th>
-<th>Fanout</th>
-<th>Instance/Net</th>
-<th>Source</th>
-<th>Dest</th>
-<th>Delay (ns)</th>
-</tr>
-</thead> 
-<tbody>
-<tr> 
- <td class = "text_info">controlcell1</td>
- <td class = "text_info">U(0,4)</td>
- <td class = "number">1</td>
- <td class = "text_info">\LCD:Cntl_Port:Sync:ctrl_reg\</td>
- <td class = "text_info">\LCD:Cntl_Port:Sync:ctrl_reg\/busclk</td>
- <td class = "text_info">\LCD:Cntl_Port:Sync:ctrl_reg\/control_2</td>
- <td class = "number">2.050</td>
-</tr>
-<tr> 
- <td class = "text_info">Route</td>
- <td class = "text_info"></td>
- <td class = "number">1</td>
- <td class = "text_info">Net_8</td>
- <td class = "text_info">\LCD:Cntl_Port:Sync:ctrl_reg\/control_2</td>
- <td class = "text_info">D6(0)/pin_input</td>
- <td class = "number">5.434</td>
-</tr>
-<tr> 
- <td class = "text_info">iocell7</td>
- <td class = "text_info">P2[2]</td>
- <td class = "number">1</td>
- <td class = "text_info">D6(0)</td>
- <td class = "text_info">D6(0)/pin_input</td>
- <td class = "text_info">D6(0)/pad_out</td>
- <td class = "number">15.787</td>
-</tr>
-<tr> 
- <td class = "text_info">Route</td>
- <td class = "text_info"></td>
- <td class = "number">1</td>
- <td class = "text_info">D6(0)_PAD</td>
- <td class = "text_info">D6(0)/pad_out</td>
- <td class = "text_info">D6(0)_PAD</td>
- <td class = "number">0.000</td>
-</tr>
-<tr> 
- <td class = "text_info">Clock</td>
- <td class = "text_info"> </td>
- <td class = "text_info"></td>
- <td class = "text_info"></td>
- <td class = "text_info"></td>
- <td class = "text_info">Clock path delay</td>
- <td class = "number">0.000</td>
-</tr>
-</tbody>
- </table> 
-</td>
-</tr>
-<tr> 
- <td class = "text_info">\LCD:Cntl_Port:Sync:ctrl_reg\/control_3</td>
- <td class = "text_info">D7(0)_PAD</td>
- <td class = "number">23.006</td>
-</tr>
-<tr class="sta_path">
-<td class="sta_path"  colspan="3">
-<table class="sta_path">
- <thead> 
-<tr> 
-<th>Type</th>
-<th>Location</th>
-<th>Fanout</th>
-<th>Instance/Net</th>
-<th>Source</th>
-<th>Dest</th>
-<th>Delay (ns)</th>
-</tr>
-</thead> 
-<tbody>
-<tr> 
- <td class = "text_info">controlcell1</td>
- <td class = "text_info">U(0,4)</td>
- <td class = "number">1</td>
- <td class = "text_info">\LCD:Cntl_Port:Sync:ctrl_reg\</td>
- <td class = "text_info">\LCD:Cntl_Port:Sync:ctrl_reg\/busclk</td>
- <td class = "text_info">\LCD:Cntl_Port:Sync:ctrl_reg\/control_3</td>
- <td class = "number">2.050</td>
-</tr>
-<tr> 
- <td class = "text_info">Route</td>
- <td class = "text_info"></td>
- <td class = "number">1</td>
- <td class = "text_info">Net_9</td>
- <td class = "text_info">\LCD:Cntl_Port:Sync:ctrl_reg\/control_3</td>
- <td class = "text_info">D7(0)/pin_input</td>
- <td class = "number">5.519</td>
-</tr>
-<tr> 
- <td class = "text_info">iocell8</td>
- <td class = "text_info">P2[3]</td>
- <td class = "number">1</td>
- <td class = "text_info">D7(0)</td>
- <td class = "text_info">D7(0)/pin_input</td>
- <td class = "text_info">D7(0)/pad_out</td>
- <td class = "number">15.437</td>
-</tr>
-<tr> 
- <td class = "text_info">Route</td>
- <td class = "text_info"></td>
- <td class = "number">1</td>
- <td class = "text_info">D7(0)_PAD</td>
- <td class = "text_info">D7(0)/pad_out</td>
- <td class = "text_info">D7(0)_PAD</td>
+ <td class = "text_info">LED(0)_PAD</td>
+ <td class = "text_info">LED(0)/pad_out</td>
+ <td class = "text_info">LED(0)_PAD</td>
  <td class = "number">0.000</td>
 </tr>
 <tr> 

@@ -1,78 +1,58 @@
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/CortexM3/ARM_GCC_541/Debug/main.o : C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/CyDmac.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/D4.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/D4_aliases.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/D5.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/D5_aliases.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/D6.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/D6_aliases.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/D7.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/D7_aliases.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/E.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/E_aliases.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/LCD.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/LCD_Cntl_Port.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/LED.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/LED_aliases.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/RS.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/RS_aliases.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/Slinea.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/Slinea_aliases.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/cmsis_armcc.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/cmsis_compiler.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/cmsis_gcc.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/core_cm3.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/core_cm3_psoc5.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/cy_em_eeprom.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/cydisabledsheets.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/cypins.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/project.h C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/main.c 
+C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/CortexM3/ARM_GCC_541/Debug/main.o : C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/Control.h C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/CyDmac.h C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/LCD.h C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/LCD_LCDPort.h C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/LCD_LCDPort_aliases.h C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/LED.h C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/LED_aliases.h C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/Slinea.h C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/Slinea_aliases.h C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/cmsis_armcc.h C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/cmsis_compiler.h C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/cmsis_gcc.h C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/core_cm3.h C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/core_cm3_psoc5.h C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/cy_em_eeprom.h C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/cydisabledsheets.h C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/cypins.h C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/project.h C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/main.c 
 
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/CyDmac.h : 
+C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/Control.h : 
 
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/CyFlash.h : 
+C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/CyDmac.h : 
 
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/CyLib.h : 
+C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/CyFlash.h : 
 
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/CySpc.h : 
+C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/CyLib.h : 
 
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/D4.h : 
+C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/CySpc.h : 
 
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/D4_aliases.h : 
+C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/LCD.h : 
 
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/D5.h : 
+C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/LCD_LCDPort.h : 
 
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/D5_aliases.h : 
+C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/LCD_LCDPort_aliases.h : 
 
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/D6.h : 
+C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/LED.h : 
 
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/D6_aliases.h : 
+C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/LED_aliases.h : 
 
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/D7.h : 
+C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/Slinea.h : 
 
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/D7_aliases.h : 
+C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/Slinea_aliases.h : 
 
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/E.h : 
+C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/cmsis_armcc.h : 
 
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/E_aliases.h : 
+C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/cmsis_compiler.h : 
 
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/LCD.h : 
+C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/cmsis_gcc.h : 
 
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/LCD_Cntl_Port.h : 
+C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/core_cm3.h : 
 
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/LED.h : 
+C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/core_cm3_psoc5.h : 
 
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/LED_aliases.h : 
+C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/cyPm.h : 
 
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/RS.h : 
+C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/cy_em_eeprom.h : 
 
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/RS_aliases.h : 
+C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/cydevice.h : 
 
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/Slinea.h : 
+C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/cydevice_trm.h : 
 
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/Slinea_aliases.h : 
+C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/cydisabledsheets.h : 
 
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/cmsis_armcc.h : 
+C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/cyfitter.h : 
 
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/cmsis_compiler.h : 
+C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h : 
 
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/cmsis_gcc.h : 
+C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/cypins.h : 
 
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/core_cm3.h : 
+C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/cytypes.h : 
 
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/core_cm3_psoc5.h : 
+C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/Generated_Source/PSoC5/project.h : 
 
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/cyPm.h : 
-
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/cy_em_eeprom.h : 
-
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/cydevice.h : 
-
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/cydevice_trm.h : 
-
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/cydisabledsheets.h : 
-
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/cyfitter.h : 
-
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h : 
-
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/cypins.h : 
-
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/cytypes.h : 
-
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/Generated_Source/PSoC5/project.h : 
-
-C:/Users/jdrd3/Documents/PSoC\ Creator/Ejemplos/QRT-1RC.cydsn/main.c : 
+C:/Users/jdrd3/Documents/PSoC\ Creator/Sensor-linea-QRT-1RC-PSOC5LP/QRT-1RC.cydsn/main.c : 
 

@@ -7,7 +7,7 @@
   <width>32</width>
   <peripherals>
     <peripheral>
-      <name>LCD_Cntl_Port</name>
+      <name>Control</name>
       <description>No description available</description>
       <baseAddress>0x0</baseAddress>
       <addressBlock>
@@ -17,7 +17,7 @@
       </addressBlock>
       <registers>
         <register>
-          <name>LCD_Cntl_Port_CONTROL_REG</name>
+          <name>Control_CONTROL_REG</name>
           <description>No description available</description>
           <addressOffset>0x4000647D</addressOffset>
           <size>8</size>

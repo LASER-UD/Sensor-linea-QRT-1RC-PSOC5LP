@@ -1,6 +1,6 @@
 /*******************************************************************************
-* File Name: LCD_Cntl_Port.c  
-* Version 1.70
+* File Name: Control.c  
+* Version 1.80
 *
 * Description:
 *  This file contains API to enable firmware control of a Control Register.
@@ -8,18 +8,20 @@
 * Note:
 *
 ********************************************************************************
-* Copyright 2008-2012, Cypress Semiconductor Corporation.  All rights reserved.
+* Copyright 2008-2015, Cypress Semiconductor Corporation.  All rights reserved.
 * You may use this file only in accordance with the license, terms, conditions, 
 * disclaimers, and limitations in the end user license agreement accompanying 
 * the software package with which this file was provided.
 *******************************************************************************/
 
-#include "LCD_Cntl_Port.h"
+#include "Control.h"
 
-#if !defined(LCD_Cntl_Port_Sync_ctrl_reg__REMOVED) /* Check for removal by optimization */
+/* Check for removal by optimization */
+#if !defined(Control_Sync_ctrl_reg__REMOVED)
 
+    
 /*******************************************************************************
-* Function Name: LCD_Cntl_Port_Write
+* Function Name: Control_Write
 ********************************************************************************
 *
 * Summary:
@@ -32,14 +34,14 @@
 *  None.
 *
 *******************************************************************************/
-void LCD_Cntl_Port_Write(uint8 control) 
+void Control_Write(uint8 control) 
 {
-    LCD_Cntl_Port_Control = control;
+    Control_Control = control;
 }
 
 
 /*******************************************************************************
-* Function Name: LCD_Cntl_Port_Read
+* Function Name: Control_Read
 ********************************************************************************
 *
 * Summary:
@@ -52,9 +54,9 @@ void LCD_Cntl_Port_Write(uint8 control)
 *  Returns the current value in the Control Register.
 *
 *******************************************************************************/
-uint8 LCD_Cntl_Port_Read(void) 
+uint8 Control_Read(void) 
 {
-    return LCD_Cntl_Port_Control;
+    return Control_Control;
 }
 
 #endif /* End check for removal by optimization */

@@ -1,6 +1,6 @@
 /*******************************************************************************
 * File Name: LCD_PM.c
-* Version 1.2
+* Version 2.20
 *
 * Description:
 *  This file provides the API source code for the Static Segment LCD component.
@@ -8,7 +8,7 @@
 * Note:
 *
 ********************************************************************************
-* Copyright 2008-2012, Cypress Semiconductor Corporation.  All rights reserved.
+* Copyright 2008-2014, Cypress Semiconductor Corporation.  All rights reserved.
 * You may use this file only in accordance with the license, terms, conditions,
 * disclaimers, and limitations in the end user license agreement accompanying
 * the software package with which this file was provided.
@@ -63,7 +63,7 @@ void LCD_RestoreConfig(void)
 ********************************************************************************
 *
 * Summary:
-*  Prepares component for entering the sleep mode.
+*  Prepares the component for entering the sleep mode.
 *
 * Parameters:
 *  None.
@@ -88,8 +88,8 @@ void LCD_Sleep(void)
 ********************************************************************************
 *
 * Summary:
-*  Wakes component from sleep mode. Configures DMA and enables the component for
-*  normal operation.
+*  Wakes the component from sleep mode. Configures DMA and enables the component
+*  for normal operation.
 *
 * Parameters:
 *  LCD_enableState - Global variable.

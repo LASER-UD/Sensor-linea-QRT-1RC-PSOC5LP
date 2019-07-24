@@ -55,14 +55,9 @@ Port Name  Setup to Clk  Clock Name:Phase
 -----------------------3.2::Clock to Out
 ----------------------------------------
 
-Port Name  Clock to Out  Clock Name:Phase  
----------  ------------  ----------------  
-D4(0)_PAD  24837         CyBUS_CLK:R       
-D5(0)_PAD  24114         CyBUS_CLK:R       
-D6(0)_PAD  23965         CyBUS_CLK:R       
-D7(0)_PAD  23706         CyBUS_CLK:R       
-E(0)_PAD   24129         CyBUS_CLK:R       
-RS(0)_PAD  24874         CyBUS_CLK:R       
+Port Name   Clock to Out  Clock Name:Phase  
+----------  ------------  ----------------  
+LED(0)_PAD  24048         CyBUS_CLK:R       
 
 
                          3.3::Pad to Pad
